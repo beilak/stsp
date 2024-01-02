@@ -1,8 +1,9 @@
 import typing as tp
+
 from src.protocols.limits.models import (
-    MddLimitsResponse,
     CapitalLimitsResponse,
     FeeResponse,
+    MddLimitsResponse,
     TaxRateResponse,
 )
 
