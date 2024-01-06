@@ -9,4 +9,4 @@ class RiskProtocol(tp.Protocol):
         """Checker provide True if risk for session (traiding day) has been relized"""
 
     def is_securities_risk_realized(self) -> bool:
-        """Checker provide True if risk for securities has been relized"""
+        """Checker provide True if risk for  securities has been relized"""
