@@ -9,6 +9,10 @@ from src.protocols.limits.limit import LimitProtocol
 class StrategyProtocol(tp.Protocol):
     """Protocol of strategy"""
 
+    @property
+    async def name(self) -> str:
+        """"""
+
     async def limits(self) -> LimitProtocol:
         """"""
 
