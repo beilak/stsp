@@ -1,8 +1,8 @@
 import typing as tp
 
 from protocols.models.common import OHLC
-from src.protocols.position.models import ExitPointResponse
-from src.protocols.predict.models import PredictResponse
+from stsp.protocols.position.models import ExitPointResponse
+from stsp.protocols.predict.models import PredictResponse
 
 
 class ClosePositionProtocol(tp.Protocol):

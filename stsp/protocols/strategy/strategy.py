@@ -1,9 +1,9 @@
 import typing as tp
-from src.protocols.predict.prediction import PredictionProtocol
-from src.protocols.position.open_position import OpenPositionProtocol
-from src.protocols.position.close_position import ClosePositionProtocol
-from src.protocols.risk.risk import RiskProtocol
-from src.protocols.limits.limit import LimitProtocol
+from stsp.protocols.predict.prediction import PredictionProtocol
+from stsp.protocols.position.open_position import OpenPositionProtocol
+from stsp.protocols.position.close_position import ClosePositionProtocol
+from stsp.protocols.risk.risk import RiskProtocol
+from stsp.protocols.limits.limit import LimitProtocol
 
 
 class StrategyProtocol(tp.Protocol):

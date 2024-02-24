@@ -2,8 +2,8 @@
 
 import typing as tp
 
-from src.protocols.models.common import OHLC
-from src.protocols.predict.models import PredictResponse
+from stsp.protocols.models.common import OHLC
+from stsp.protocols.predict.models import PredictResponse
 
 
 class PredictionProtocol(tp.Protocol):

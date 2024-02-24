@@ -1,6 +1,6 @@
 import typing as tp
 
-from src.protocols.limits.models import (
+from stsp.protocols.limits.models import (
     CapitalLimitsResponse,
     FeeResponse,
     MddLimitsResponse,
